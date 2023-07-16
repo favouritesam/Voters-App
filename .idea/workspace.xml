@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6de712d6-f09b-4f9b-8b10-53dd57d663dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/request/AdminRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/request/CreateElectionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/request/PartyRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/request/VoterRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/AdminRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/CreateElectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/DeleteAdminResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/DeletePartyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/DeleteVoterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/PartyRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Dtos/response/VoterRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/exception/AdminRegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/exception/PartyRegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/exception/VoterRegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/mappers/ModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Election.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/UserInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/models/Voter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/AdimRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasAdimRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasElectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasPartyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasUserInformationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/BvasVoterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/ElectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/PartyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/UserInformationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/repositories/VoterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BevasBetaAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BevasBetaElectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BevasBetaPartyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BvasAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BvasBetaElectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BvasBetaVoterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/BvasPartyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/service/VoterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/semicolon/africa/updatedVotersApp/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/BvasAddressRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/BvasAdimRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/BvasPartyRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/BvasUserInformationRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/BvasVoterRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/service/BvasAdminServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/service/BvasBetaElectionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/service/BvasBetaVoterServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/semicolon/africa/updatedVotersApp/repositories/service/BvasPartyServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PKZOtqVrZqWRYFwnvUW6NsWsTY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Favour Nwadike/Desktop/LoadApplication&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="semicolon.africa.updatedVotersApp.Dtos.response" />
+      <recent name="semicolon.africa.updatedVotersApp.exception" />
+      <recent name="semicolon.africa.updatedVotersApp.Dtos.request" />
+      <recent name="semicolon.africa.updatedVotersApp.models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="semicolon.africa.updatedVotersApp.service" />
+      <recent name="semicolon.africa.updatedVotersApp.repositories" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BvasPartyServiceTest">
+    <configuration name="BvasAddressRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UpdatedVotersAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semicolon.africa.updatedVotersApp.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="semicolon.africa.updatedVotersApp.repositories" />
+      <option name="MAIN_CLASS_NAME" value="semicolon.africa.updatedVotersApp.repositories.BvasAddressRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasAdminServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UpdatedVotersAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semicolon.africa.updatedVotersApp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="semicolon.africa.updatedVotersApp.service" />
+      <option name="MAIN_CLASS_NAME" value="semicolon.africa.updatedVotersApp.service.BvasAdminServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasPartyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UpdatedVotersAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semicolon.africa.updatedVotersApp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="semicolon.africa.updatedVotersApp.service" />
+      <option name="MAIN_CLASS_NAME" value="semicolon.africa.updatedVotersApp.service.BvasPartyServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasUserInformationRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UpdatedVotersAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semicolon.africa.updatedVotersApp.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="semicolon.africa.updatedVotersApp.repositories" />
+      <option name="MAIN_CLASS_NAME" value="semicolon.africa.updatedVotersApp.repositories.BvasUserInformationRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasUserInformationRepositoryTest.testSaveUserInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UpdatedVotersAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="semicolon.africa.updatedVotersApp.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="semicolon.africa.updatedVotersApp.repositories" />
+      <option name="MAIN_CLASS_NAME" value="semicolon.africa.updatedVotersApp.repositories.BvasUserInformationRepositoryTest" />
+      <option name="METHOD_NAME" value="testSaveUserInformation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BvasPartyServiceTest" />
+        <item itemvalue="JUnit.BvasAdminServiceTest" />
+        <item itemvalue="JUnit.BvasUserInformationRepositoryTest.testSaveUserInformation" />
+        <item itemvalue="JUnit.BvasUserInformationRepositoryTest" />
+        <item itemvalue="JUnit.BvasAddressRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6de712d6-f09b-4f9b-8b10-53dd57d663dd" name="Changes" comment="" />
+      <created>1683207708429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683207708429</updated>
+      <workItem from="1683207710198" duration="8212000" />
+      <workItem from="1683308149190" duration="148000" />
+      <workItem from="1683308705844" duration="530000" />
+      <workItem from="1683309279045" duration="13344000" />
+      <workItem from="1683351966562" duration="618000" />
+      <workItem from="1683534054646" duration="146000" />
+      <workItem from="1683566058737" duration="21000" />
+      <workItem from="1683566207564" duration="1310000" />
+      <workItem from="1683575077434" duration="486000" />
+      <workItem from="1683575717054" duration="231000" />
+      <workItem from="1683617671514" duration="11890000" />
+      <workItem from="1683629634301" duration="29000" />
+      <workItem from="1683630447784" duration="14079000" />
+      <workItem from="1683645299739" duration="577000" />
+      <workItem from="1683645957322" duration="341000" />
+      <workItem from="1683646333591" duration="154000" />
+      <workItem from="1683646517349" duration="649000" />
+      <workItem from="1683647196971" duration="2660000" />
+      <workItem from="1683662200631" duration="14164000" />
+      <workItem from="1683710429770" duration="1299000" />
+      <workItem from="1683757455145" duration="5572000" />
+      <workItem from="1683763110149" duration="21000" />
+      <workItem from="1683791687985" duration="20409000" />
+      <workItem from="1683821361112" duration="9446000" />
+      <workItem from="1683880112832" duration="18000" />
+      <workItem from="1683917348578" duration="134000" />
+      <workItem from="1684140684947" duration="1321000" />
+      <workItem from="1684156014619" duration="1116000" />
+      <workItem from="1684187091168" duration="1123000" />
+      <workItem from="1684224524446" duration="742000" />
+      <workItem from="1684228632174" duration="22000" />
+      <workItem from="1684236484021" duration="3256000" />
+      <workItem from="1684267679546" duration="623000" />
+      <workItem from="1684278305640" duration="26000" />
+      <workItem from="1684399161182" duration="4434000" />
+      <workItem from="1684410604411" duration="4817000" />
+      <workItem from="1684417898356" duration="1602000" />
+      <workItem from="1684447238281" duration="1926000" />
+      <workItem from="1684450216121" duration="83000" />
+      <workItem from="1687430647693" duration="674000" />
+      <workItem from="1687457811355" duration="1377000" />
+      <workItem from="1687465786050" duration="1609000" />
+      <workItem from="1687468413754" duration="42000" />
+      <workItem from="1687469770236" duration="648000" />
+      <workItem from="1687506811228" duration="2806000" />
+      <workItem from="1687686489075" duration="802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UpdatedVotersAPP$BvasAdimRepositoryTest_testSaveAdmin.ic" NAME="BvasAdimRepositoryTest.testSaveAdmin Coverage Results" MODIFIED="1683635557419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>semicolon.africa.updatedVotersApp.repositories.*</FILTER>
+    </SUITE>
+  </component>
+</project>
